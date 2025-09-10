@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handshaik - 8-Day Trial Proposal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .timeline-step-mobile:not(:last-child) {
+            padding-bottom: 2.5rem;
+        }
+
+        .timeline-step-mobile::before {
+            content: '';
+            position: absolute;
+            left: 2.5rem;
+            top: 5rem;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background-color: #e5e7eb;
+        }
+         .timeline-step-mobile:last-child::before {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="bg-white">
+        <!-- Header -->
+        <header style="background-color: #9722ff;" class="text-white p-8 text-center">
+            <img src="https://iili.io/KzeesV9.md.png" alt="Handshaik Logo" class="h-16 mx-auto mb-4" onerror="this.onerror=null;this.src='https://placehold.co/200x64/9722ff/ffffff?text=Handshaik';">
+            <h1 class="text-3xl md:text-4xl font-bold tracking-tight">8-Day Trial Proposal</h1>
+        </header>
+
+        <main class="p-6 sm:p-10 lg:p-16">
+            <!-- Consultant Intro -->
+            <section class="mb-12 text-center">
+                <img src="https://iili.io/KzesGl2.md.png" alt="Julia Fagelman Logo" class="h-16 mx-auto mb-6" onerror="this.onerror=null;this.src='https://placehold.co/200x64/ffffff/000000?text=JF+Consulting';">
+                <img src="https://i.postimg.cc/7PdqcrYR/temp-Imageha-MFVd.avif" alt="Julia Fagelman" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-lg" onerror="this.onerror=null;this.src='https://placehold.co/128x128/cccccc/ffffff?text=JF';">
+                <h2 class="text-2xl font-bold">Julia Fagelman</h2>
+                <p class="text-gray-500">Customer Education Consultant</p>
+            </section>
+
+            <!-- Introduction/Objective -->
+            <section class="mb-12 text-center max-w-4xl mx-auto">
+                <div class="inline-block bg-purple-100 text-purple-800 p-4 rounded-full mb-4">
+                    <i class="fas fa-bullseye fa-2x"></i>
+                </div>
+                <h2 class="text-2xl font-bold mb-4">Objective</h2>
+                <div class="text-lg text-gray-600 space-y-2 text-center">
+                   <p>To produce the initial technical documentation covering the core features which will be available for Handshaik's trial customers.</p>
+                </div>
+            </section>
+
+            <!-- Project Timeline -->
+            <section class="mb-16 max-w-7xl mx-auto">
+                 <h2 class="text-3xl font-bold text-center mb-4">Project Roadmap (4 Weeks)</h2>
+                 <p class="text-center text-gray-500 mb-8">Click on a phase below to see more details.</p>
+                 <div class="bg-gray-50 p-6 md:p-10 rounded-2xl border border-gray-200 shadow-sm">
+                    <!-- Desktop Timeline -->
+                    <div class="hidden md:flex items-center justify-between">
+                        <a href="#phase-1" class="group flex-1 text-center"><div class="w-20 h-20 bg-purple-500 text-white rounded-full flex items-center justify-center text-3xl mx-auto shadow-lg transition-all duration-300 group-hover:scale-110 group-hover:ring-4 group-hover:ring-purple-300"><i class="fas fa-microscope"></i></div><h3 class="mt-4 font-bold text-purple-600">Phase 1: Discovery</h3><p class="text-sm text-gray-500">2 Work Days</p></a>
+                        <div class="flex-1 flex justify-center text-gray-300 text-4xl"><i class="fas fa-long-arrow-alt-right"></i></div>
+                        <a href="#phase-2" class="group flex-1 text-center"><div class="w-20 h-20 bg-indigo-500 text-white rounded-full flex items-center justify-center text-3xl mx-auto shadow-lg transition-all duration-300 group-hover:scale-110 group-hover:ring-4 group-hover:ring-indigo-300"><i class="fas fa-tasks"></i></div><h3 class="mt-4 font-bold text-indigo-600">Phase 2: Planning</h3><p class="text-sm text-gray-500">1 Work Day</p></a>
+                        <div class="flex-1 flex justify-center text-gray-300 text-4xl"><i class="fas fa-long-arrow-alt-right"></i></div>
+                        <a href="#phase-3" class="group flex-1 text-center"><div class="w-20 h-20 bg-sky-500 text-white rounded-full flex items-center justify-center text-3xl mx-auto shadow-lg transition-all duration-300 group-hover:scale-110 group-hover:ring-4 group-hover:ring-sky-300"><i class="fas fa-pen-alt"></i></div><h3 class="mt-4 font-bold text-sky-600">Phase 3: Creation</h3><p class="text-sm text-gray-500">4 Work Days</p></a>
+                        <div class="flex-1 flex justify-center text-gray-300 text-4xl"><i class="fas fa-long-arrow-alt-right"></i></div>
+                        <a href="#phase-4" class="group flex-1 text-center"><div class="w-20 h-20 bg-teal-500 text-white rounded-full flex items-center justify-center text-3xl mx-auto shadow-lg transition-all duration-300 group-hover:scale-110 group-hover:ring-4 group-hover:ring-teal-300"><i class="fas fa-paper-plane"></i></div><h3 class="mt-4 font-bold text-teal-600">Phase 4: Delivery</h3><p class="text-sm text-gray-500">1 Work Day</p></a>
+                    </div>
+                    <!-- Mobile Timeline -->
+                    <div class="md:hidden">
+                        <div class="relative">
+                            <div class="flex items-start relative timeline-step-mobile"><a href="#phase-1" class="flex items-start w-full"><div class="w-20 h-20 bg-purple-500 text-white rounded-full flex-shrink-0 flex items-center justify-center text-3xl shadow-lg"><i class="fas fa-microscope"></i></div><div class="ml-6"><h3 class="font-bold text-purple-600 text-lg">Phase 1: Discovery</h3><p class="text-md text-gray-500">2 Work Days</p></div></a></div>
+                            <div class="flex items-start relative timeline-step-mobile"><a href="#phase-2" class="flex items-start w-full"><div class="w-20 h-20 bg-indigo-500 text-white rounded-full flex-shrink-0 flex items-center justify-center text-3xl shadow-lg"><i class="fas fa-tasks"></i></div><div class="ml-6"><h3 class="font-bold text-indigo-600 text-lg">Phase 2: Planning</h3><p class="text-md text-gray-500">1 Work Day</p></div></a></div>
+                            <div class="flex items-start relative timeline-step-mobile"><a href="#phase-3" class="flex items-start w-full"><div class="w-20 h-20 bg-sky-500 text-white rounded-full flex-shrink-0 flex items-center justify-center text-3xl shadow-lg"><i class="fas fa-pen-alt"></i></div><div class="ml-6"><h3 class="font-bold text-sky-600 text-lg">Phase 3: Creation</h3><p class="text-md text-gray-500">4 Work Days</p></div></a></div>
+                            <div class="flex items-start relative timeline-step-mobile"><a href="#phase-4" class="flex items-start w-full"><div class="w-20 h-20 bg-teal-500 text-white rounded-full flex-shrink-0 flex items-center justify-center text-3xl shadow-lg"><i class="fas fa-paper-plane"></i></div><div class="ml-6"><h3 class="font-bold text-teal-600 text-lg">Phase 4: Delivery</h3><p class="text-md text-gray-500">1 Work Day</p></div></a></div>
+                        </div>
+                    </div>
+                 </div>
+            </section>
+
+            <!-- Scope of Work -->
+            <section class="max-w-5xl mx-auto scroll-mt-24" id="scope-of-work">
+                <h2 class="text-3xl font-bold text-center mb-10">Our 8-Day Action Plan</h2>
+                <div class="space-y-8">
+
+                    <!-- Phase 1 -->
+                    <div id="phase-1" class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm scroll-mt-24">
+                        <div class="flex items-center gap-4">
+                            <div class="bg-purple-100 text-purple-800 h-16 w-16 flex-shrink-0 flex items-center justify-center rounded-full">
+                                <i class="fas fa-microscope fa-2x"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold">Phase 1: Product Training & Discovery (2 days)</h3>
+                            </div>
+                        </div>
+                        <ul class="mt-4 pl-8 list-disc text-gray-600 space-y-2">
+                            <li><strong>Define Critical Information:</strong> Define what is the most important information for early adopters to successfully get started with Handshaik.</li>
+                            <li><strong>Understand User Profiles:</strong> Better understanding of users who will be consuming documentation (e.g. are they Admins, Workflow builders, End users).</li>
+                            <li><strong>Select & Prepare Tools:</strong> Access provided to live environment and other tools (e.g. Notion).</li>
+                            <li><strong>Product Immersion:</strong> Product training sessions to be run by Handshaik to ensure thorough understanding of the platform's current capabilities, limitations, popular actions/use cases and specific terminology to be used consistently across all documentation.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Phase 2 -->
+                    <div id="phase-2" class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm scroll-mt-24">
+                        <div class="flex items-center gap-4">
+                            <div class="bg-indigo-100 text-indigo-800 h-16 w-16 flex-shrink-0 flex items-center justify-center rounded-full">
+                                <i class="fas fa-tasks fa-2x"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold">Phase 2: Content Planning (1 day)</h3>
+                            </div>
+                        </div>
+                        <ul class="mt-4 pl-8 list-disc text-gray-600 space-y-2">
+                            <li><strong>Article Structure Definition:</strong> Define a comprehensive list of articles to be produced.</li>
+                            <li><strong>Identify Core Use Cases:</strong> Brainstorm and select the most popular and straightforward customer use cases. These examples will be woven into articles, where there is a necessity to provide more contextual explanation (if at all).</li>
+                            <li><strong>Content Prioritization:</strong> Determine priority and timeline for article creation, ensuring that the most critical content is developed first to unblock early users.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Phase 3 -->
+                    <div id="phase-3" class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm scroll-mt-24">
+                        <div class="flex items-center gap-4">
+                            <div class="bg-sky-100 text-sky-800 h-16 w-16 flex-shrink-0 flex items-center justify-center rounded-full">
+                                <i class="fas fa-pen-alt fa-2x"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold">Phase 3: Content Creation (4 days)</h3>
+                            </div>
+                        </div>
+                        <ul class="mt-4 pl-8 list-disc text-gray-600 space-y-2">
+                            <li><strong>Initial Article Production:</strong> Two initial articles to be written.</li>
+                            <li><strong>Initial Feedback:</strong> Feedback cycle for approval of style and content on two initial articles.</li>
+                            <li><strong>Writing of all additional articles:</strong> Taking on any feedback and produced in the order of priority determined in Phase 2.</li>
+                            <li><strong>Adding images/gifs to all articles.</strong></li>
+                            <li><strong>Establish Feedback Mechanism:</strong> Create a form to collect feedback on articles from customers.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Phase 4 -->
+                    <div id="phase-4" class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm scroll-mt-24">
+                        <div class="flex items-center gap-4">
+                            <div class="bg-teal-100 text-teal-800 h-16 w-16 flex-shrink-0 flex items-center justify-center rounded-full">
+                                <i class="fas fa-paper-plane fa-2x"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold">Phase 4: Delivery and Iteration (1 day)</h3>
+                            </div>
+                        </div>
+                        <ul class="mt-4 pl-8 list-disc text-gray-600 space-y-2">
+                            <li><strong>Articles delivered for review:</strong> The initial set of articles delivered for review.</li>
+                            <li><strong>Iterative Feedback Loop:</strong> Feedback on content's accuracy, clarity, and tone. Any changes or missing information included.</li>
+                            <li><strong>Final Delivery:</strong> Final versions of all articles delivered, ready for use.</li>
+                            <li><strong>Next Steps:</strong> Following trial.</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Next Steps -->
+                    <div id="next-steps" class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm scroll-mt-24">
+                        <div class="flex items-center gap-4">
+                            <div class="bg-gray-100 text-gray-800 h-16 w-16 flex-shrink-0 flex items-center justify-center rounded-full">
+                                <i class="fas fa-forward fa-2x"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold">Next Steps (Post-Trial)</h3>
+                            </div>
+                        </div>
+                        <ul class="mt-4 pl-8 list-disc text-gray-600 space-y-2">
+                            <li><strong>Defining a content roadmap:</strong> Develop a strategic roadmap for the creation of further documentation and additional content types e.g., Tutorial videos (Guidde), Pendo walkthroughs etc. in alignment with product roadmap and customer needs.</li>
+                            <li><strong>High-level consultancy on customer education and customer marketing strategy.</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Success Metrics & Budget -->
+            <section class="mt-16 grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <!-- Success Metrics -->
+                <div class="bg-gray-100 p-8 rounded-2xl">
+                     <div class="flex items-center mb-4">
+                        <div class="inline-block bg-yellow-100 text-yellow-800 p-3 rounded-full">
+                            <i class="fas fa-trophy fa-lg"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold ml-4">Success Metrics</h3>
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 fa-lg mt-1"></i>
+                            <span class="text-gray-700">Qualitative feedback from early customers indicates resources are helpful, clear, and easy to use.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 fa-lg mt-1"></i>
+                            <span class="text-gray-700">A measurable reduction in the predicted hands-on implementation time required for new customers.</span>
+                        </li>
+                         <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 fa-lg mt-1"></i>
+                            <span class="text-gray-700">A noticeable decrease in the volume of basic, repetitive support questions from new users.</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Project Investment -->
+                <div class="bg-gray-100 p-8 rounded-2xl">
+                    <div class="flex items-center mb-4">
+                        <div class="inline-block bg-green-100 text-green-800 p-3 rounded-full">
+                            <i class="fas fa-gbp-sign fa-lg"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold ml-4">Project Investment</h3>
+                    </div>
+                    <p class="text-xl text-gray-700"><strong class="font-semibold">Agreed Fee:</strong> £500 per day for the 8-day trial period.</p>
+                </div>
+            </section>
+
+            <!-- Any Questions? -->
+            <section class="mt-16 max-w-5xl mx-auto">
+                <div class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm">
+                    <div class="text-center">
+                        <div class="inline-block bg-purple-100 text-purple-800 p-4 rounded-full mb-4">
+                            <i class="fas fa-question-circle fa-2x"></i>
+                        </div>
+                        <h2 class="text-3xl font-bold mb-4">Any Questions?</h2>
+                        <p class="text-lg text-gray-600 mb-8">Please feel free to reach out with any questions.</p>
+                    </div>
+                    <div class="flex flex-col md:flex-row items-center justify-center gap-8">
+                        <img src="https://i.postimg.cc/7PdqcrYR/temp-Imageha-MFVd.avif" alt="Julia Fagelman" class="w-32 h-32 rounded-full shadow-lg" onerror="this.onerror=null;this.src='https://placehold.co/128x128/cccccc/ffffff?text=JF';">
+                        <div class="text-center md:text-left space-y-4">
+                            <div>
+                                <p class="font-bold text-gray-800 text-lg">Julia Fagelman</p>
+                                <p class="text-sm text-gray-500">Customer Education Consultant</p>
+                            </div>
+                            <div class="flex items-center justify-center md:justify-start">
+                                <div class="bg-gray-100 p-3 rounded-full mr-3"><i class="fas fa-phone text-gray-500"></i></div>
+                                <a href="tel:+972534318504" class="text-purple-600 hover:underline">+972 53-431-8504</a>
+                            </div>
+                            <div class="flex items-center justify-center md:justify-start">
+                                <div class="bg-gray-100 p-3 rounded-full mr-3"><i class="fas fa-envelope text-gray-500"></i></div>
+                                <a href="mailto:juliafagelman@gmail.com" class="text-purple-600 hover:underline">juliafagelman@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer style="background-color: #9722ff;" class="text-center p-6 text-white">
+            <p>&copy; 2025 Julia Fagelman. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
