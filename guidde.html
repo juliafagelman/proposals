@@ -38,14 +38,17 @@
     <div class="bg-white">
         <!-- Header -->
         <header style="background-color: #0d2350;" class="text-white p-8 text-center">
-            <!-- Logo with a white background rectangle, added overflow-hidden to clip the scaled logo -->
-            <div class="w-64 h-24 mx-auto mb-4 bg-white rounded-2xl flex items-center justify-center p-2 shadow-lg overflow-hidden">
-                <!-- Increased scale from 1.68 to 2.016 (1.68 * 1.2) -->
-                <img src="https://iili.io/KmfWZGV.md.png" alt="Julia Fagelman Logo" class="h-auto w-auto max-h-full max-w-full" style="transform: scale(2.016);" onerror="this.onerror=null;this.src='https://placehold.co/240x80/0d2350/ffffff?text=Julia+Fagelman';">
+            <!-- Logos Side-by-Side -->
+            <div class="flex justify-center items-center gap-4 md:gap-8 mx-auto mb-4">
+                <!-- Julia's Logo -->
+                <div class="w-48 h-20 bg-white rounded-2xl flex items-center justify-center p-2 shadow-lg overflow-hidden">
+                    <img src="https://iili.io/KmfWZGV.md.png" alt="Julia Fagelman Logo" class="h-auto w-auto max-h-full max-w-full" style="transform: scale(1.6);" onerror="this.onerror=null;this.src='https://placehold.co/192x80/0d2350/ffffff?text=Julia+Fagelman';">
+                </div>
+                <!-- Guidde Logo -->
+                <div class="w-48 h-20 bg-white rounded-2xl flex items-center justify-center p-4 shadow-lg">
+                    <img src="https://cdn.prod.website-files.com/610004329b339defd1cf0578/6100213114f38ac0aec7cdff_img_guidde_logo.svg" alt="Guidde Logo" class="h-12 w-auto">
+                </div>
             </div>
-            <h1 class="text-3xl md:text-4xl font-bold tracking-tight">Customer Community Program Launch</h1>
-            <p class="text-lg text-gray-200 mt-2">Client: Guidde</p>
-            <p class="text-md text-gray-200 mt-1">Estimated Duration: 12 Weeks (~80 Hours)</p>
         </header>
 
         <main class="p-6 sm:p-10 lg:p-16">
@@ -56,21 +59,28 @@
                 <h2 class="text-2xl font-bold">Julia Fagelman</h2>
                 <!-- Title from DOCX -->
                 <p class="text-gray-500">Community Architect, Strategist & Implementer</p>
+                
+                <!-- Text moved from header -->
+                <div class="mt-6">
+                    <h1 class="text-3xl md:text-4xl font-bold tracking-tight text-gray-900">Customer Community Program Launch</h1>
+                    <p class="text-lg text-gray-600 mt-2">Client: Guidde</p>
+                </div>
             </section>
 
             <!-- Introduction/Objective -->
-            <section class="mb-12 text-center max-w-4xl mx-auto">
-                <!-- Guidde Logo Added -->
-                <img src="https://cdn.prod.website-files.com/610004329b339defd1cf0578/6100213114f38ac0aec7cdff_img_guidde_logo.svg" alt="Guidde Logo" class="h-12 mx-auto mb-6">
-                
-                <div class="inline-block bg-gray-100 text-[#0d2350] p-4 rounded-full mb-4">
-                    <!-- Changed icon to 'users' for community -->
-                    <i class="fas fa-users fa-2x"></i>
+            <section class="mb-12 max-w-4xl mx-auto">
+                <div class="text-center">
+                    <div class="inline-block bg-gray-100 text-[#0d2350] p-4 rounded-full mb-4">
+                        <!-- Changed icon to 'users' for community -->
+                        <i class="fas fa-users fa-2x"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold mb-4">Project Overview & Objectives</h2>
                 </div>
-                <h2 class="text-2xl font-bold mb-4">Project Overview & Objectives</h2>
+                <!-- Updated Text -->
                 <div class="text-lg text-gray-600 space-y-4 text-left">
-                    <p>This project will design, build, and launch a branded community hub that aligns with Guidde’s business objectives. A well-designed customer community doesn’t just connect users; it scales customer success, drives product adoption, and turns customers into advocates.</p>
-                    <p>This foundation will reduce support friction, deepen customer loyalty, and give Guidde a direct channel for insight and advocacy.</p>
+                    <p>A well-designed customer community doesn’t just connect users, it scales customer success, drives product adoption, and turns customers into advocates.</p>
+                    <p>This project involves designing, building, and launching a branded community hub that aligns with Guidde’s business objectives. Deliverables will include a ready-to-launch community platform, initial content creation, governance documentation, and a strategy for sustainable management.</p>
+                    
                     <h3 class="font-semibold text-gray-700 pt-2">Key goals for this community:</h3>
                     <ul class="list-disc pl-5 space-y-1">
                         <li><strong class="font-medium">Enhance Customer Engagement:</strong> Create a space for customers to share experiences, inspire one another, and celebrate wins.</li>
@@ -80,10 +90,13 @@
                 </div>
             </section>
 
-            <!-- Project Timeline (Adapted to 5 Phases) -->
+            <!-- Project Timeline -->
             <section class="mb-16 max-w-7xl mx-auto">
-                 <h2 class="text-3xl font-bold text-center mb-4">Project Roadmap (3 Months)</h2>
+                 <h2 class="text-3xl font-bold text-center mb-4">Project Roadmap</h2>
+                 <!-- Updated Subtitle -->
+                 <p class="text-center text-gray-500 mb-2">Estimated Duration: 12 Weeks (~80 Hours)</p>
                  <p class="text-center text-gray-500 mb-8">Click on a phase below to see more details.</p>
+                 
                  <div class="bg-gray-50 p-6 md:p-10 rounded-2xl border border-gray-200 shadow-sm">
                      <!-- Desktop Timeline (5 steps) -->
                      <div class="hidden md:flex items-center justify-between">
@@ -122,15 +135,17 @@
                                 <i class="fas fa-search fa-2x"></i>
                             </div>
                             <div>
-                                <h3 class="text-xl font-bold">Phase 1: Discovery & Strategic Alignment (Est. 12 hours)</h3>
+                                <h3 class="text-xl font-bold">Phase 1: Discovery & Strategic Alignment</h3>
+                                <p class="text-md text-gray-500 italic">Define purpose, success metrics, and stakeholder alignment.</p>
                             </div>
                         </div>
                         <ul class="mt-4 pl-8 list-disc text-gray-600 space-y-2">
                             <li>Kickoff & goal-setting workshops.</li>
                             <li>Identify community objectives, target audiences, and key success metrics.</li>
                             <li>Internal stakeholder mapping and alignment.</li>
-                            <li><strong class="font-medium text-gray-700">Deliverable:</strong> Discovery summary & strategy brief.</li>
                         </ul>
+                        <!-- Deliverable moved -->
+                        <p class="mt-4 pl-8"><strong class="font-medium text-gray-700">Deliverable:</strong> Discovery summary & strategy brief.</p>
                     </div>
 
                     <!-- Phase 2 -->
@@ -140,15 +155,17 @@
                                 <i class="fas fa-cogs fa-2x"></i>
                             </div>
                             <div>
-                                <h3 class="text-xl font-bold">Phase 2: Platform Implementation (Est. 20 hours)</h3>
+                                <h3 class="text-xl font-bold">Phase 2: Platform Implementation</h3>
+                                <p class="text-md text-gray-500 italic">Choose and implement the right platform.</p>
                             </div>
                         </div>
                         <ul class="mt-4 pl-8 list-disc text-gray-600 space-y-2">
                             <li>Select the right community platform (e.g., Circle, Discourse).</li>
                             <li>Configure platform structure, permissions, and branding.</li>
                             <li>Set up user onboarding flows and moderation roles.</li>
-                            <li><strong class="font-medium text-gray-700">Deliverable:</strong> Live, branded community environment & admin documentation.</li>
                         </ul>
+                        <!-- Deliverable moved -->
+                        <p class="mt-4 pl-8"><strong class="font-medium text-gray-700">Deliverable:</strong> Live, branded community environment & admin documentation.</p>
                     </div>
 
                     <!-- Phase 3 -->
@@ -158,15 +175,17 @@
                                 <i class="fas fa-rocket fa-2x"></i>
                             </div>
                             <div>
-                                <h3 class="text-xl font-bold">Phase 3: Community Launch & Content Activation (Est. 16 hours)</h3>
+                                <h3 class="text-xl font-bold">Phase 3: Community Launch & Content Activation</h3>
+                                <p class="text-md text-gray-500 italic">Prepare and develop initial content; engage first users.</p>
                             </div>
                         </div>
                         <ul class="mt-4 pl-8 list-disc text-gray-600 space-y-2">
                             <li>Create 10–15 initial discussion posts, tutorials, and welcome content.</li>
                             <li>Invite and onboard internal champions and external early adopters.</li>
                             <li>Establish and publish initial community guidelines.</li>
-                            <li><strong class="font-medium text-gray-700">Deliverable:</strong> Engaged early-access community with foundational starter content.</li>
                         </ul>
+                        <!-- Deliverable moved -->
+                        <p class="mt-4 pl-8"><strong class="font-medium text-gray-700">Deliverable:</strong> Engaged early-access community with foundational starter content.</p>
                     </div>
 
                     <!-- Phase 4 -->
@@ -176,34 +195,77 @@
                                 <i class="fas fa-book fa-2x"></i>
                             </div>
                             <div>
-                                <h3 class="text-xl font-bold">Phase 4: Governance & Enablement (Est. 20 hours)</h3>
+                                <h3 class="text-xl font-bold">Phase 4: Governance & Enablement</h3>
+                                <p class="text-md text-gray-500 italic">Define rules, moderation, and management strategy.</p>
                             </div>
                         </div>
                         <ul class="mt-4 pl-8 list-disc text-gray-600 space-y-2">
                             <li>Write and finalize official Rules of Engagement.</li>
                             <li>Develop a comprehensive management playbook (moderation, reporting, feedback loops).</li>
                             <li>Train internal champions on community management best practices.</li>
-                            <li><strong class="font-medium text-gray-700">Deliverable:</strong> “Community Management Playbook” & recorded walkthrough.</li>
                         </ul>
+                        <!-- Deliverable moved -->
+                        <p class="mt-4 pl-8"><strong class="font-medium text-gray-700">Deliverable:</strong> “Community Management Playbook” & recorded walkthrough.</p>
                     </div>
 
-                    <!-- Phase 5 (New) -->
+                    <!-- Phase 5 -->
                     <div id="phase-5" class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm scroll-mt-24">
                         <div class="flex items-center gap-4">
                             <div class="bg-gray-100 text-[#0d2350] h-16 w-16 flex-shrink-0 flex items-center justify-center rounded-full">
                                 <i class="fas fa-handshake fa-2x"></i>
                             </div>
                             <div>
-                                <h3 class="text-xl font-bold">Phase 5: Sustainability & Handoff (Est. 8 hours)</h3>
+                                <h3 class="text-xl font-bold">Phase 5: Sustainability & Handoff</h3>
+                                <p class="text-md text-gray-500 italic">Ensure sustainability post-launch.</p>
                             </div>
                         </div>
                         <ul class="mt-4 pl-8 list-disc text-gray-600 space-y-2">
                             <li>Review initial community performance against success metrics.</li>
                             <li>Finalize all documentation and make final edits.</li>
                             <li>Conduct official wrap-up and handoff meeting with the Guidde team.</li>
-                            <li><strong class="font-medium text-gray-700">Deliverable:</strong> Final project closeout package and recommendations.</li>
                         </ul>
+                        <!-- Deliverable moved -->
+                        <p class="mt-4 pl-8"><strong class="font-medium text-gray-700">Deliverable:</strong> Final project closeout package and recommendations.</p>
                     </div>
+                </div>
+            </section>
+            
+            <!-- Proposed Timeline (New Section) -->
+            <section class="mt-16 max-w-5xl mx-auto">
+                <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="bg-gray-100 text-[#0d2350] h-16 w-16 flex-shrink-0 flex items-center justify-center rounded-full">
+                            <i class="fas fa-calendar-alt fa-2x"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold">Proposed Timeline</h3>
+                        </div>
+                    </div>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th class="p-4 font-semibold">Month</th>
+                                    <th class="p-4 font-semibold">Key Milestones</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y">
+                                <tr class="divide-x">
+                                    <td class="p-4 w-1/3">Month 1</td>
+                                    <td class="p-4">Discovery workshops; platform selection; setup begins</td>
+                                </tr>
+                                <tr class="divide-x">
+                                    <td class="p-4 w-1/3">Month 2</td>
+                                    <td class="p-4">Platform configuration; initial content creation; internal champion alignment</td>
+                                </tr>
+                                <tr class="divide-x">
+                                    <td class="p-4 w-1/3">Month 3</td>
+                                    <td class="p-4">Soft launch, governance playbook, training, handoff</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="text-sm text-gray-500 mt-4 italic">All phases are flexible to accommodate Guidde’s internal approval cycles and technical dependencies.</p>
                 </div>
             </section>
 
@@ -251,18 +313,18 @@
                          </div>
                          <h3 class="text-2xl font-bold ml-4">Project Investment</h3>
                      </div>
-                     <!-- Content from DOCX -->
+                     <!-- Updated Content -->
                      <p class="text-xl text-gray-700 mb-4"><strong class="font-semibold">Total Fixed Fee:</strong> $11,000 USD (≈ ₪42,000 ILS)</p>
                      <h4 class="font-semibold text-gray-700">Payment Schedule:</h4>
                      <ul class="list-disc pl-5 mt-2 text-gray-600 space-y-1">
                         <li>40% on project kickoff (Phase 1 start)</li>
-                        <li>40% upon completion of Phase 3 (community launch)</li>
-                        <li>20% upon final delivery and handoff</li>
+                        <li>40% upon community launch (Phase 3 end)</li>
+                        <li>20% upon final delivery and handoff (Phase 5 end)</li>
                      </ul>
                 </div>
             </section>
 
-            <!-- Optional Add-ons (New Section) -->
+            <!-- Optional Add-ons (Updated) -->
             <section class="mt-16 max-w-5xl mx-auto">
                 <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
                     <div class="flex items-center gap-4 mb-4">
@@ -274,44 +336,39 @@
                         </div>
                     </div>
                     <ul class="pl-8 list-disc text-gray-600 space-y-2">
-                        <li><strong class="font-medium text-gray-700">Community Analytics Dashboard:</strong> Custom KPI dashboard + monthly report templates.</li>
-                        <li><strong class="font-medium text-gray-700">Strategy Retainer (3–6 months):</strong> Ongoing guidance, engagement campaigns, and growth optimization.</li>
-                        <li><strong class="font-medium text-gray-700">Event & Activation Support:</strong> Planning AMAs, webinars, and user-driven showcases.</li>
-                        <li><strong class="font-medium text-gray-700">Advanced Feedback Integration:</strong> Connect community feedback to Guidde’s roadmap tools (e.g., Productboard, Canny).</li>
-                        <li><strong class="font-medium text-gray-700">Moderator Training Program:</strong> Enable internal staff or super-users to manage engagement confidently.</li>
+                        <!-- Updated Content -->
+                        <li><strong class="font-medium text-gray-700">Strategy Retainer:</strong> Ongoing guidance, engagement campaigns, and growth optimization including event production and support.</li>
                     </ul>
                 </div>
             </section>
 
-            <!-- Any Questions? -->
+            <!-- Next Steps (Replaced "Any Questions") -->
             <section class="mt-16 max-w-5xl mx-auto">
                 <div class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm">
-
                     <div class="text-center">
                         <div class="inline-block bg-gray-100 text-[#0d2350] p-4 rounded-full mb-4">
-                            <i class="fas fa-question-circle fa-2x"></i>
+                            <!-- New Icon -->
+                            <i class="fas fa-forward fa-2x"></i>
                         </div>
-                        <h2 class="text-3xl font-bold mb-4">Any Questions?</h2>
-                        <p class="text-lg text-gray-600 mb-8">Please feel free to reach out to schedule a call.</p>
+                        <!-- New Title -->
+                        <h2 class="text-3xl font-bold mb-6">Next Steps</h2>
                     </div>
-                    <div class="flex flex-col md:flex-row items-center justify-center gap-8">
-                        <img src="https://i.postimg.cc/7PdqcrYR/temp-Imageha-MFVd.avif" alt="Julia Fagelman" class="w-32 h-32 rounded-full shadow-lg" onerror="this.onerror=null;this.src='https://placehold.co/128x128/cccccc/ffffff?text=JF';">
-                        <div class="text-center md:text-left space-y-4">
-                            <div>
-                                <p class="font-bold text-gray-800 text-lg">Julia Fagelman</p>
-                                <!-- Updated title -->
-                                <p class="text-sm text-gray-500">Community Architect & Strategist</p>
-                            </div>
-                            <!-- Kept contact info from template -->
-                            <div class="flex items-center justify-center md:justify-start">
-                                <div class="bg-gray-100 p-3 rounded-full mr-3"><i class="fas fa-phone text-gray-500"></i></div>
-                                <a href="tel:+972534318504" class="text-[#0d2350] hover:underline">+972 53-431-8504</a>
-                            </div>
-                            <div class="flex items-center justify-center md:justify-start">
-                                <div class="bg-gray-100 p-3 rounded-full mr-3"><i class="fas fa-envelope text-gray-500"></i></div>
-                                <a href="mailto:juliafagelman@gmail.com" class="text-[#0d2350] hover:underline">juliafagelman@gmail.com</a>
-                            </div>
-                        </div>
+                    <!-- New Content from DOCX -->
+                    <div class="max-w-md mx-auto">
+                        <ul class="space-y-3">
+                             <li class="flex items-start text-lg">
+                                 <i class="fas fa-check-circle text-[#0d2350] mr-3 fa-lg mt-1"></i>
+                                 <span class="text-gray-700">Introduction call to get to know each other and answer any questions related to this proposal.</span>
+                             </li>
+                             <li class="flex items-start text-lg">
+                                 <i class="fas fa-check-circle text-[#0d2350] mr-3 fa-lg mt-1"></i>
+                                 <span class="text-gray-700">Confirm approval of project scope and fee.</span>
+                             </li>
+                             <li class="flex items-start text-lg">
+                                 <i class="fas fa-check-circle text-[#0d2350] mr-3 fa-lg mt-1"></i>
+                                 <span class="text-gray-700">Schedule discovery kickoff session.</span>
+                             </li>
+                         </ul>
                     </div>
                 </div>
             </section>
